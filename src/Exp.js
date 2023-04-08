@@ -2,7 +2,6 @@ import { ContactShadows, Environment, Float, Html, PresentationControls, useGLTF
 import React, { useRef } from 'react'
 // import { useControls } from 'leva'
 import { Bloom, EffectComposer, Vignette } from '@react-three/postprocessing'
-// import { Perf } from 'r3f-perf'
 
 const Exp = () => {
 
@@ -39,7 +38,6 @@ const Exp = () => {
     // })
     return (
         <>
-            {/* <Perf position="top-left" /> */}
             <color args={["#055055"]} attach={"background"} />
             <Environment preset='city' />
             <EffectComposer>
