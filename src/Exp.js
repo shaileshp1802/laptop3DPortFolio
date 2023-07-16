@@ -1,4 +1,4 @@
-import { ContactShadows, Environment, Float, Html, PresentationControls, useGLTF, Text } from '@react-three/drei'
+import { ContactShadows, Float, Html, PresentationControls, useGLTF, Text } from '@react-three/drei'
 import React, { useRef } from 'react'
 // import { useControls } from 'leva'
 import { Bloom, EffectComposer, Vignette } from '@react-three/postprocessing'
@@ -39,7 +39,6 @@ const Exp = () => {
     return (
         <>
             <color args={["#055055"]} attach={"background"} />
-            <Environment preset='city' />
             <EffectComposer>
                 <Bloom luminanceThreshold={0.5} luminanceSmoothing={0.9} height={300} />
                 <Vignette eskil={false} offset={0.1} darkness={1} />
