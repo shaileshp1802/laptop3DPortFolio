@@ -59,7 +59,7 @@ const Exp = () => {
                             scale={1.5}>
 
                             <Html transform wrapperClass='htmlScreen' distanceFactor={1.33} rotation-x={-0.3} position={[0.10999999999999995, 1.4500000000000008 , -2.0100000000000033]}>
-                                <iframe src='https://shaileshp.me/portfolio' title='webOriginal'/>
+                                <iframe src='https://shaileshp1802.github.io/portfolio/' title='webOriginal'/>
                             </Html>
                         </primitive>
                         <Text 
